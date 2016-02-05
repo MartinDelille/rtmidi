@@ -1,8 +1,6 @@
 os: linux
-sudo: required
-dist: trusty
 language: cpp
-install: sudo apt-get install libasound2-plugins
+install: sudo apt-get install libasound2-dev
 compiler:
 - clang
 #- gcc
