@@ -2,6 +2,7 @@ os: linux
 sudo: required
 dist: trusty
 language: cpp
+install: sudo apt-get install libasound
 compiler:
 - clang
 - gcc
