@@ -5,6 +5,6 @@ language: cpp
 install: sudo apt-get install libasound
 compiler:
 - clang
-- gcc
+#- gcc
 before_script: ./autogen.sh
 script: make
