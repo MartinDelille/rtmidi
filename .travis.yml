@@ -1,5 +1,9 @@
-os: osx
 language: cpp
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+    - os: osx
 compiler:
 - clang
 - gcc
