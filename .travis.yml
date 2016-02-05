@@ -4,10 +4,5 @@ language: cpp
 compiler:
 - clang
 - gcc
-install:
-- sudo apt-get update
-- sudo apt-get upgrade automake
 before_script: ./autogen.sh
-script:
-- automake --version
-- make
+script: make
