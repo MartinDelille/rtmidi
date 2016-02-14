@@ -1,8 +1,7 @@
 os: linux
 language: cpp
 install:
-- sudo apt-get update
-- sudo apt-get install libasound2-dev automake
+- sudo apt-get install libasound2-dev
 compiler:
 - clang
 #- gcc
